@@ -1,0 +1,156 @@
+[
+  {
+    "Id": "01-2459758-18136-01",
+    "Status": null,
+    "Description": "BRA with price",
+    "Estimated": 0,
+    "Elapsed": 0,
+    "Clockable": false,
+    "Type": "JOB",
+    "Notes": null,
+    "LinePayer": null,
+    "WorkNotes": null,
+    "Parts": [],
+    "TechnicianDetails": null,
+    "ActiveTechnicians": null,
+    "Lines": [
+      {
+        "Id": "01-2459758-18136-06",
+        "Status": "CREATED",
+        "Description": "Additional",
+        "Estimated": 0,
+        "Elapsed": 0,
+        "Clockable": false,
+        "Type": "TEXT",
+        "Notes": null,
+        "LinePayer": null,
+        "WorkNotes": null,
+        "Parts": null,
+        "TechnicianDetails": null,
+        "ActiveTechnicians": null,
+        "Lines": null,
+        "Started": null
+      },
+      {
+        "Id": "01-2459758-18136-02",
+        "Status": null,
+        "Description": "BRA with price",
+        "Estimated": 0,
+        "Elapsed": 0,
+        "Clockable": false,
+        "Type": "MENU",
+        "Notes": null,
+        "LinePayer": null,
+        "WorkNotes": null,
+        "Parts": [],
+        "TechnicianDetails": null,
+        "ActiveTechnicians": null,
+        "Lines": [
+          {
+            "Id": "01-2459758-18136-02",
+            "Status": "COMPLETED",
+            "Description": "Fixed price from external system",
+            "Estimated": 0,
+            "Elapsed": 0,
+            "Clockable": false,
+            "Type": "LABOR",
+            "Notes": null,
+            "LinePayer": "CUSTOMER",
+            "WorkNotes": [],
+            "Parts": null,
+            "TechnicianDetails": [],
+            "ActiveTechnicians": [],
+            "Lines": null,
+            "Started": null
+          },
+          {
+            "Id": "01-2459758-18136-03",
+            "Status": "AWAITINGLABOR",
+            "Description": "Check brakes all round",
+            "Estimated": 60,
+            "Elapsed": 58,
+            "Clockable": true,
+            "Type": "LABOR",
+            "Notes": "",
+            "LinePayer": "CUSTOMER",
+            "WorkNotes": [],
+            "Parts": null,
+            "TechnicianDetails": [
+              {
+                "Name": "vamshikrishna",
+                "Initials": "V"
+              },
+              {
+                "Name": "Nityananda Das",
+                "Initials": "ND"
+              },
+              {
+                "Name": "kcc",
+                "Initials": "K"
+              }
+            ],
+            "ActiveTechnicians": [
+              {
+                "StartDateTime": "2022-06-30T09:01:00Z",
+                "TotalEstimatedTime": 0,
+                "WorkItemsWithId": [
+                  "01-2459758-18136-03"
+                ],
+                "Name": "vamshikrishna",
+                "Initials": "V"
+              }
+            ],
+            "Lines": null,
+            "Started": null
+          }
+        ],
+        "Started": null
+      }
+    ],
+    "Started": null
+  },
+  {
+    "Id": "01-2459758-18136-02",
+    "Status": null,
+    "Description": "BRASRV2 without price_GM Labor",
+    "Estimated": 0,
+    "Elapsed": 0,
+    "Clockable": false,
+    "Type": "JOB",
+    "Notes": null,
+    "LinePayer": null,
+    "WorkNotes": null,
+    "Parts": [],
+    "TechnicianDetails": null,
+    "ActiveTechnicians": null,
+    "Lines": [
+      {
+        "Id": "01-2459758-18136-05",
+        "Status": "COMPLETED",
+        "Description": "Carry out repair :- Please enter description of work to be done here",
+        "Estimated": 60,
+        "Elapsed": 26,
+        "Clockable": false,
+        "Type": "LABOR",
+        "Notes": "",
+        "LinePayer": "CUSTOMER",
+        "WorkNotes": [],
+        "Parts": null,
+        "TechnicianDetails": [
+          {
+            "Name": "vamshikrishna",
+            "Initials": "V"
+          },
+          {
+            "Name": "kcc",
+            "Initials": "K"
+          }
+        ],
+        "ActiveTechnicians": [],
+        "Lines": null,
+        "Started": null
+      }
+    ],
+    "Started": null
+  }
+]

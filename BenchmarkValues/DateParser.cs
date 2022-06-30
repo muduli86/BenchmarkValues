@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BenchmarkValues
 {
@@ -21,12 +19,9 @@ namespace BenchmarkValues
             return int.Parse(dateAsString.Substring(0, indexOfHyphen));
         }
 
-        public int GetYearFromDateSpan(ReadOnlySpan<char> dateAsString)
-        {
+        public int GetYearFromDateSpan(ReadOnlySpan<char> dateAsString) {
             var indexOfHyphen = dateAsString.IndexOf('-');
-            return int.Parse(dateAsString.Slice(0,indexOfHyphen));
+            return int.Parse(dateAsString.Slice(0, indexOfHyphen));
         }
-
-       
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Xml;
-using BenchmarkDotNet.Attributes;
+﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Order;
 
 namespace BenchmarkValues
@@ -21,23 +17,19 @@ namespace BenchmarkValues
         }
 
         [Benchmark]
-        public void GetYearFromDateSplit()
-        {
+        public void GetYearFromDateSplit() {
             parser.GetYearFromDateSplit(DateTime);
         }
 
         [Benchmark]
-        public void GetYearFromDateSubString()
-        {
+        public void GetYearFromDateSubString() {
             parser.GetYearFromDateSubString(DateTime);
         }
 
         [Benchmark]
-        public void GetYearFromDateSpan()
-        {
+        public void GetYearFromDateSpan() {
             parser.GetYearFromDateSpan(DateTime);
         }
-
     }
 }
 
@@ -71,6 +63,3 @@ namespace BenchmarkValues
 // Gen 0     : GC Generation 0 collects per 1000 operations
 // Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
 // 1 ns: 1 Nanosecond(0.000000001 sec)
-
-
-

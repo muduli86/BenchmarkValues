@@ -1,12 +1,16 @@
-﻿using System;
-using BenchmarkDotNet.Running;
+﻿using BenchmarkDotNet.Running;
 
 namespace BenchmarkValues
 {
     internal class Program
     {
         static void Main(string[] args) {
-            BenchmarkRunner.Run<DateParserBenchMark>();
+            BenchmarkRunner.Run<LoopingListComplexBenchMark>();
+
+            // var ExistingLinesMock = Helpers.BuildResponse("ExistingLines.json");
+            // List<ExistingLines> lines = JsonConvert.DeserializeObject<List<ExistingLines>>(ExistingLinesMock);
+            // LoopingListComplex loopingList= new LoopingListComplex();
+            // loopingList.ForEachSequentialComplex(lines);
         }
     }
 }
